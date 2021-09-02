@@ -99,7 +99,7 @@ async fn main() -> Result<(), Box<dyn Error>> {
     let mut stdin = io::BufReader::new(io::stdin()).lines();
 
     // Listen on all interfaces and whatever port the OS assigns
-    swarm.listen_on("/ip4/0.0.0.0/tcp/0".parse()?)?;
+    swarm.listen_on("/ip4/0.0.0.0/tcp/42069".parse()?)?;
 
     // Kick it off
     task::block_on(future::poll_fn(move |cx: &mut Context<'_>| {
