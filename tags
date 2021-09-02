@@ -1,0 +1,20 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/data/Dev/Rust/pearspeak/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210110.0/
+MyBehaviour	src/main.rs	/^    impl NetworkBehaviourEventProcess<FloodsubEvent> for MyBehaviour {$/;"	c	function:main
+MyBehaviour	src/main.rs	/^    impl NetworkBehaviourEventProcess<MdnsEvent> for MyBehaviour {$/;"	c	function:main
+MyBehaviour	src/main.rs	/^    struct MyBehaviour {$/;"	s	function:main
+floodsub	src/main.rs	/^        floodsub: Floodsub,$/;"	m	struct:main::MyBehaviour
+ignored_member	src/main.rs	/^        ignored_member: bool,$/;"	m	struct:main::MyBehaviour
+inject_event	src/main.rs	/^        fn inject_event(&mut self, event: MdnsEvent) {$/;"	P	implementation:main::MyBehaviour
+inject_event	src/main.rs	/^        fn inject_event(&mut self, message: FloodsubEvent) {$/;"	P	implementation:main::MyBehaviour
+main	src/main.rs	/^async fn main() -> Result<(), Box<dyn Error>> {$/;"	f
+mdns	src/main.rs	/^        mdns: Mdns,$/;"	m	struct:main::MyBehaviour
